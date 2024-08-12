@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Previsão do Tempo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="menuPrincipal">
+
+        <div class="caixa-pesquisa">
+            <input class="input-cidade" placeholder="Digite o Nome da Cidade">
+            <button onclick="clickbotao()">
+                <img class="lupa" src="./img/download.png" alt="imagem-de-lupa">
+            </button>
+        </div>
+
+        <div class="caixa-informacoes">
+            <h2 class="cidade">Tempo em Rio de Janeiro</h2>
+            <p class="tempo">28°C</p>
+            <div class="caixa-icone-nuvem">
+                <img class="icone"
+                    src="https://openweathermap.org/img/wn/04n.png">
+                <p class="nuvens">nuvens dispersas</p>
+            </div>
+            <p class="umidade">Umidade:70%</p>
+        </div>
+
+    </div>
+</body>
+
+</html>

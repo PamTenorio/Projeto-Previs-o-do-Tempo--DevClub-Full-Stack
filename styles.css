@@ -1,0 +1,95 @@
+* {
+    margin: 0;    /* zera a margin automatica da pagina*/
+    padding: 0;    /*zera o crescimento automatico das coisas*/
+    box-sizing: border-box;    /*deixa tudo em uma caixa pra ser mexida nela sem ir estendendo a caixa e sim se adaptando a ela*/
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    display: flex;    /*quando eu ativo o display flex na caixa eu ganho algumas habilidades como o justify-content e o align-items que me permite centralizar os objetos nessa caixa */
+    justify-content: center;    /*coloca a caixa no centro da linha*/
+    align-items: center;    /* centraliza a caixa no meio da pagina*/
+    height: 100vh;    /* deixa a caicha kcentralizada conforme tamanho da Pagina*/
+    background-image: url("https://images.squarespace-cdn.com/content/v1/5b51083c3e2d091347d2e6fe/1638462278514-4YWH839J25OURZLJUI5C/mike-benna-SBiVq9eWEtQ-unsplash.jpg");
+
+}
+
+.menuPrincipal {
+    color: rgb(254, 255, 255);    /*cor das letras*/
+    background-color: #000000;    /* troca cor de fundo */
+    width: 95%;  /* largura da caixa  */
+    max-width: 430px;
+    opacity: 0.8;    /*transparencia do item*/
+    padding: 20px;    /*cresce a caixa de dentro pra fora*/
+    border-radius: 25px;    /*borda da caixa arredondada*/
+
+}
+
+input {
+    border: none;    /* borda do elemento*/
+    outline: none;   /* borda azul que aparece no input*/
+    padding: 12px;    /*cresce o botão de dentro pra fora*/
+    border-radius: 20px;    /* arredonda as bordas do botão*/
+    background-color: #4a4848bc;    /*cor de fundo da caixa */
+    color: #ffffff;/*cor das letras do input*/
+    width: calc(100% - 50px);/*difinir que o input pode ocupar ate 100% que esta disponivel -100 pixels*/
+
+}
+
+button {
+    border: none;    /*tira a borda do botao a borda cinza*/
+    outline: none;    /*tira a linha azul do botão quando clicamos´*/
+    padding: 2px;    /*cresce o botão de dentro pra fora*/
+    border-radius: 50px;    /*borda do botao pra deixar redondo*/
+    background-color: #4a4848bc;    /*cor de fundo do botao*/
+    float: right;    /*ele joga tudo pra direita o botão*/
+    cursor: pointer;/*faz com que a mãozinha apareça quando passamos por cima do botão*/
+}
+
+button :hover {    /*(hover é um evento) quando colocado o hover as caracteristicas abaixo só são ativadas quando agente passar o mouse em cima do elemento */
+    background-color: #5d5a5abc;   /*a cor do fundo do botão trocara pra essa quanso o mouse passar em cima */
+}
+
+.caixa-informacoes{
+    margin-top: 3%;
+}
+.lupa {
+    height: 30px;    /*tamanho da imagem de lupa*/
+    border-radius: 50px;    /*a borda da imagem redonda porque esta em 50px*/
+
+}
+h2 {
+    color: #ffffff;/*cor do texto*/
+    font-size: 30px;/*tamanho da fonte */
+   
+}
+.tempo{
+    margin-top: 30px;/* distancia em cima */
+    font-size:30px;
+
+}
+.icone{
+    margin-top: 10px;
+    margin-bottom: 3px;/*margem em baixo*/
+    margin-right: 8px; /*margem a direita */
+    height: 50px; /* tamanho da imagem */
+}
+
+.caixa-icone-nuvem{
+    display: flex;
+    float: right;
+
+}
+.nuvens{
+    margin-top: 20px;
+    float: right;/*float joga as informações todas para a direito float pergunta onde jogar e o Right diz que é a direita*/
+    text-transform: capitalize;/*DEIXA A PRIMEIRA LETRA MAIUSCULA*/
+    font-size: 20px;
+}
+.umidade{
+    font-size: 20px;
+    margin-top: 20px;
+    text-transform:capitalize ;/*DEIXA A PRIMEIRA LETRA MAIUSCULA*/
+
+}
