@@ -7,15 +7,17 @@
 }
 
 body {
+    
     display: flex;    /*quando eu ativo o display flex na caixa eu ganho algumas habilidades como o justify-content e o align-items que me permite centralizar os objetos nessa caixa */
     justify-content: center;    /*coloca a caixa no centro da linha*/
     align-items: center;    /* centraliza a caixa no meio da pagina*/
     height: 100vh;    /* deixa a caicha kcentralizada conforme tamanho da Pagina*/
-    background-image: url("https://images.squarespace-cdn.com/content/v1/5b51083c3e2d091347d2e6fe/1638462278514-4YWH839J25OURZLJUI5C/mike-benna-SBiVq9eWEtQ-unsplash.jpg");
-
+    background-image: url("https://i.pinimg.com/originals/42/9e/f3/429ef3b0b66d6f0cb274c9416fc1f3e9.jpg");
+      
 }
 
 .menuPrincipal {
+    
     color: rgb(254, 255, 255);    /*cor das letras*/
     background-color: #000000;    /* troca cor de fundo */
     width: 95%;  /* largura da caixa  */
@@ -23,7 +25,7 @@ body {
     opacity: 0.8;    /*transparencia do item*/
     padding: 20px;    /*cresce a caixa de dentro pra fora*/
     border-radius: 25px;    /*borda da caixa arredondada*/
-
+   
 }
 
 input {
